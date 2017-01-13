@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: healthMonitoring
+  host: healthMonitoring
+  disk_quota: 1024M
+  services:
+  - Project4D-iotf-service
+  - availability-monitoring-auto
